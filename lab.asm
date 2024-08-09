@@ -635,7 +635,7 @@ NextPosSR
 ;----------------------------
 ;; Adds delay to each game tick
 ;----------------------------
-DELAY .FILL 10000
+DELAY .FILL 20000
 DELAY_TEMP .FILL 0
 DelayLoopSR
   ST R6,DELAY_TEMP
